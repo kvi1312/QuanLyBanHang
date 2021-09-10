@@ -1,0 +1,11 @@
+chưa làm được
+- chức năng đặt bàn (nói ở video số 1)
+
+(- chức năng show ra tài khoản vì sau khi làm chức năng sql injection ở video 7 thì bị hỏng trước đó thì làm bình thường
+- coi chừng lộn category thành catetory) LÀM ĐƯỢC RỒI
+
+- bài 13 nó viết sai chữ secondbill => seconrd, countbillinfo thành coundbillinfo, chưa làm được chức năng gộp bàn
+bài 20 CHƯA THÊM ĐƯỢC CÁI THƯ FUNCTION CONVERT SANG TIẾNG VIỆT để search  món ăn
+
+bài 22: chưa làm đc mã hóa mật khẩu
+bài 25: chưa làm đc report viewer do thiếu tool

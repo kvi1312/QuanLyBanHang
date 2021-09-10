@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\netcoreapp3.1\QuanLyQuanCafe.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\netcoreapp3.1\QuanLyQuanCafe.designer.deps.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\QuanLyQuanCafe.designer.runtimeconfig.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\QuanLyQuanCafe.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ReportingServices.ReportViewerControl.WinForms" Version="150.1449.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\netcoreapp3.1\apphost.exe" />
+    <None Include="obj\Debug\netcoreapp3.1\QuanLyQuanCafe.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\QuanLyQuanCafe.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\QuanLyQuanCafe.csproj.AssemblyReference.cache" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\QuanLyQuanCafe.csproj.nuget.g.props" />
+    <None Include="obj\QuanLyQuanCafe.csproj.nuget.g.targets" />
+    <None Include="obj\Release\netcoreapp3.1\apphost.exe" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.assets.cache" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.csproj.AssemblyReference.cache" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.csproj.CopyComplete" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.csproj.GenerateResource.cache" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.dll" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.fAccountProfile.resources" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.fAdmin.resources" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.fLogin.resources" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.fTableManager.resources" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.genruntimeconfig.cache" />
+    <None Include="obj\Release\netcoreapp3.1\QuanLyQuanCafe.pdb" />
+  </ItemGroup>
+
+</Project>
